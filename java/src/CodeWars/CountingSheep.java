@@ -16,10 +16,12 @@ public class CountingSheep {
         int count = 0;
         for(int i =0; i < arrayOfSheeps.length; i++) {
 
+            // check if element is null
             if(arrayOfSheeps[i] == null) {
                 return count;
             }
 
+            //if element is true, count++
             if(arrayOfSheeps[i]== true) {
                 count++;
             }
